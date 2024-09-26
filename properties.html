@@ -73,7 +73,7 @@
                       <li><a href="index.html">Accueil</a></li>
                       <li><a href="properties.html" class="active">Propriétés</a></li>
                       <li><a href="contact.html">Contact</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Organiser une visite</a></li>
+                      <li><a href="contact.html"><i class="fa fa-calendar"></i> Organiser une visite</a></li>
                   </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -100,7 +100,7 @@
     <div class="container">
       <ul class="properties-filter">
         <li>
-          <a class="is_active" href="#!" data-filter="*">Tout</a>
+          <a class="is_active" href="#!" data-filter="*">Show All</a>
         </li>
         <li>
           <a href="#!" data-filter=".adv">Appartements</a>
@@ -113,7 +113,7 @@
         </li>
       </ul>
       <div class="row properties-box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv " data-item="1">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
@@ -131,7 +131,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str " data-item="2">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
@@ -149,7 +149,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac" data-item="3">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
@@ -167,7 +167,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str " data-item="4">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-04.jpg" alt=""></a>
             <span class="category">Apartment</span>
@@ -185,7 +185,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str " data-item="5">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-05.jpg" alt=""></a>
             <span class="category">Penthouse</span>
@@ -203,7 +203,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv " data-item="6">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
             <span class="category">Modern Condo</span>
@@ -221,7 +221,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str " data-item="7">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
@@ -239,7 +239,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv " data-item="8">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
@@ -257,7 +257,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv " data-item="9">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
@@ -275,7 +275,11 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+
+      </div>
+
+      <div class="row properties-box2" style="display: none;">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv " data-item="10">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
@@ -293,7 +297,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv"  data-item="11">
           <div class="item">
             <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
@@ -315,10 +319,8 @@
       <div class="row">
         <div class="col-lg-12">
           <ul class="pagination">
-            <li><a class="is_active" href="#">1</a></li>
-            <li><a  href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">>></a></li>
+            <li><a class="is_active" id="page1" href="#">1</a></li>
+            <li><a  href="#" id="page2">2</a></li>
           </ul>
         </div>
       </div>
@@ -343,6 +345,66 @@
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+
+  <script>
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const page1Link = document.getElementById("page1");
+    const page2Link = document.getElementById("page2");
+    const propertiesBox1 = document.querySelector(".properties-box");
+    const propertiesBox2 = document.querySelector(".properties-box2");
+    const filters = document.querySelectorAll('.properties-filter a');
+
+    function showPage1() {
+      propertiesBox1.style.display = "flex";
+      propertiesBox2.style.display = "none";
+      page1Link.classList.add("is_active");
+      page2Link.classList.remove("is_active");
+      adjustLayout(propertiesBox1);
+    }
+
+    function showPage2() {
+      propertiesBox1.style.display = "none";
+      propertiesBox2.style.display = "flex";
+      page1Link.classList.remove("is_active");
+      page2Link.classList.add("is_active");
+      adjustLayout(propertiesBox2);
+    }
+
+    function adjustLayout(propertiesBox) {
+      const items = propertiesBox.querySelectorAll('.properties-items');
+      const itemCount = items.length;
+
+
+      propertiesBox.classList.remove('fewer-than-9', 'one-item');
+
+      if (itemCount === 1) {
+        propertiesBox.classList.add('one-item');
+      } else if (itemCount < 9) {
+        propertiesBox.classList.add('fewer-than-9');
+      }
+    }
+
+    page1Link.addEventListener("click", function (e) {
+      e.preventDefault();
+      showPage1();
+    });
+
+    page2Link.addEventListener("click", function (e) {
+      e.preventDefault();
+      showPage2();
+    });
+
+    filters.forEach(function (filter) {
+      filter.addEventListener('click', function (e) {
+        e.preventDefault();
+        showPage1();
+      });
+    });
+
+    adjustLayout(propertiesBox1);
+  });
+</script>
 
   </body>
 </html>
